@@ -1,6 +1,6 @@
 package tr.edu.beykoz.oop;
 
-class student {
+public class Student {
 
     // Private fields
     private String name;
@@ -9,7 +9,7 @@ class student {
     private String department;
 
     // Constructor
-    public student(String name, String surname, int grade, String department) {
+    public Student(String name, String surname, int grade, String department) {
         this.name = name;
         this.surname = surname;
         this.grade = grade;
@@ -59,7 +59,7 @@ class student {
         this.department = department;
     }
 
-    // Public method using private method
+    // Public method
     public void printStudentInfo() {
         System.out.println("Full Name: " + getFullName());
         System.out.println("Grade: " + grade);

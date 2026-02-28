@@ -5,7 +5,7 @@ public class MainTest {
     public static void main(String[] args) {
 
         // student nesnesi oluştur
-        student s1 = new student(
+        Student s1 = new Student(
                 "Fatmanur",
                 "Atalay",
                 3,
